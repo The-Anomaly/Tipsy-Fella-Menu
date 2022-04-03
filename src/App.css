@@ -85,4 +85,14 @@ button.activeList {
   justify-content: space-between;
   padding: 1.75rem 0;
   border-top: 1px solid #f2f4f7;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+}
+.descrip {
+  font-family: "Euclid";
+  font-weight: 400;
+  font-size: 90%;
+  margin-top: 1rem;
+  width: 60%;
+  margin-right: 40%;
 }
