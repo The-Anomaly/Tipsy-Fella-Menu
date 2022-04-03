@@ -1,0 +1,88 @@
+.appContainer {
+  border: 1px solid #f2f4f7;
+  width: 90%;
+  margin: 2rem auto;
+  max-width: 500px;
+  padding: 1rem;
+}
+.appHeader {
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding: 1rem 0 2rem;
+}
+.appHeader h1 {
+  font-size: 2.2em;
+}
+.logo {
+}
+.ctrlContainer {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.ctrlContainer button {
+  width: 50%;
+  border: 1px solid #f2f4f7;
+  color: #f2f4f7;
+  font-weight: 600;
+  background: transparent;
+  padding: 1.5rem 0;
+  font-size: 1.6rem;
+  background: #1d2939;
+  cursor: pointer;
+}
+button.active {
+  background: #f2f4f7;
+  color: #101828;
+}
+.crtlContainer2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #1d2939;
+  padding: 1rem;
+  margin-bottom: 3.5rem;
+}
+.crtlContainer2 div {
+  border-bottom: 1px solid #f2f4f780;
+  border-right: 1px solid #f2f4f780;
+}
+.crtlContainer2 div:nth-of-type(3n + 3) {
+  border-right: none;
+}
+.crtlContainer2 div:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+.crtlContainer2 button {
+  padding: 1rem;
+  font-family: "Euclid";
+  border: none;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  background: transparent;
+  color: #f2f4f7;
+  margin: 12px auto;
+  width: 83%;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+button.activeList {
+  background: #f2f4f7;
+  color: #101828;
+  font-weight: 500;
+}
+.itemList {
+}
+.listHeading {
+  font-weight: 400;
+  font-family: "Euclid";
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  margin-bottom: 1.75rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.75rem 0;
+  border-top: 1px solid #f2f4f7;
+}
