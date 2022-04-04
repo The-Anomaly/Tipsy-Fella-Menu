@@ -41,7 +41,7 @@ const options: options[] = [
             price: "₦2,000",
           },
           {
-            name: "₦2,000",
+            name: "Chicken pepper soup",
             price: "₦2,000",
           },
           {
@@ -80,19 +80,19 @@ const options: options[] = [
           },
           {
             name: "Chicken wings",
-            price: "₦3,000",
+            price: "₦3,500",
             ingredients:
               "Comes with either french fries, potatoe chips or yam chips",
           },
           {
             name: "Grilled chicken",
-            price: "Cripsy chicken",
+            price: "₦3,000",
             ingredients:
               "Comes with either french fries, potatoe chips or yam chips",
           },
           {
             name: "Cripsy chicken",
-            price: "Cripsy chicken",
+            price: "₦4,000",
             ingredients:
               "Comes with either french fries, potatoe chips or yam chips",
           },
@@ -238,9 +238,9 @@ const options: options[] = [
       },
       {
         heading: "Soups",
-        listHeading: `Soups - ALL THE SOUPS comes WITH ANY OF THE FOLLOWING swallow (EBA, SEMO, POUNDO, WHEAT)
-        with ANY PROTEIN OF YOUR CHOICE (BEEF, CHICKEN, TURKEY, FISH)
-        EXTRA PROTEIN - ₦ 2,000)`,
+        listHeading: `Soups - all the soups come with any of the following swallow 
+        (eba, semo, poundo, wheat) with any protein of your choice 
+        (beef, chicken, turkey, fish). Extra protein - ₦ 2,000)`,
         items: [
           {
             name: "Gbanga",
@@ -457,8 +457,8 @@ const options: options[] = [
             price: "₦45,000",
           },
           {
-            name: "Henessy VS",
-            price: "Henessy VS",
+            name: "Hennessy VS",
+            price: "₦50,000",
           },
           {
             name: "Remy Martin",
@@ -473,7 +473,7 @@ const options: options[] = [
             price: "₦60,000",
           },
           {
-            name: "Henessy VSOP",
+            name: "Hennessy VSOP",
             price: "₦65,000",
           },
           {
@@ -485,7 +485,7 @@ const options: options[] = [
             price: "₦210,000",
           },
           {
-            name: "Henessy XO",
+            name: "Hennessy XO",
             price: "₦230,000",
           },
 
