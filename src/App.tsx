@@ -7,12 +7,309 @@ const options: options[] = [
     type: "Food",
     itemList: [
       {
-        heading: "Champagnes",
-        listHeading: "Champagnes",
+        heading: "BreakFast",
+        listHeading: "BreakFast",
         items: [
           {
-            name: "Declan",
-            price: "₦8,000",
+            name: "Dodo special",
+            price: "₦3,000",
+            ingredients: "Fried diced plantain with beef and vegetable sauce",
+          },
+          {
+            name: "Plantain",
+            price: "₦3,000",
+            ingredients: "Boiled or fried plaintain with corn beef sauce",
+          },
+          {
+            name: "Yamarita",
+            price: "₦3,500",
+            ingredients: "Deep fried yam with egg and tomato sauce",
+          },
+          {
+            name: "Yam",
+            price: "₦3,000",
+            ingredients: "Boiled or fried yam chips with egg sauce",
+          },
+        ],
+      },
+      {
+        heading: "Apetizers",
+        listHeading: "Apetizers",
+        items: [
+          {
+            name: "Goat meat pepper soup",
+            price: "₦2,000",
+          },
+          {
+            name: "₦2,000",
+            price: "₦2,000",
+          },
+          {
+            name: "Turkey pepper soup",
+            price: "₦2,500",
+          },
+          {
+            name: "Asun",
+            price: "₦2,000",
+          },
+          {
+            name: "Samosa & spring rolls",
+            price: "₦2,000",
+          },
+          {
+            name: "peppered giszard",
+            price: "₦2,500",
+          },
+          {
+            name: "Peppered goat meat",
+            price: "₦2,000",
+          },
+          {
+            name: "peppered snail",
+            price: "₦4,000",
+          },
+          {
+            name: "Tipsyfella special waffles",
+            price: "₦3,000",
+          },
+          {
+            name: "Chicken nuggets",
+            price: "₦3,500",
+            ingredients:
+              "Comes with either french fries, potatoe chips or yam chips",
+          },
+          {
+            name: "Chicken wings",
+            price: "₦3,000",
+            ingredients:
+              "Comes with either french fries, potatoe chips or yam chips",
+          },
+          {
+            name: "Grilled chicken",
+            price: "Cripsy chicken",
+            ingredients:
+              "Comes with either french fries, potatoe chips or yam chips",
+          },
+          {
+            name: "Cripsy chicken",
+            price: "Cripsy chicken",
+            ingredients:
+              "Comes with either french fries, potatoe chips or yam chips",
+          },
+        ],
+      },
+      {
+        heading: "Sandwiches",
+        listHeading: "Sandwiches & Burgers - comes with french fries",
+        items: [
+          {
+            name: "Beef burger",
+            price: "₦3,000",
+            ingredients: "Onion, lettuce & tomato",
+          },
+          {
+            name: "Club sandwich",
+            price: "₦3,000",
+            ingredients: "Chiken, ham, eggs, cheese, lettuce, tomato",
+          },
+          {
+            name: "Chicken burger",
+            price: "₦3,000",
+            ingredients: "Onion, lettuce & tomato",
+          },
+        ],
+      },
+      {
+        heading: "Platters",
+        listHeading: "Platters",
+        items: [
+          {
+            name: "Platter for one",
+            price: "₦4,000",
+            list: [
+              "Spring rolls",
+              "Samosa",
+              "Meatballs",
+              "Chicken wings",
+              "Sausage",
+            ],
+          },
+          {
+            name: "Platter for two",
+            price: "₦10,000",
+            list: [
+              "Spring rolls",
+              "Samosa",
+              "Meatballs",
+              "Chicken wings (4pcs)",
+              "Sausage",
+              "Pepper gizzard",
+              "Mixed meat kebab",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Pasta",
+        listHeading: "Pasta",
+        items: [
+          {
+            name: "Spaghetti bolognese",
+            price: "₦3,500",
+            ingredients: "Minced Meat In Tomato Sauce",
+          },
+          {
+            name: "Singapore noodles",
+            price: "₦3,500",
+            ingredients: "Mixed Meat And Mixed Vegetable",
+          },
+          {
+            name: "Sea food pasta/Spag",
+            price: "₦7,000",
+            ingredients: "Mixed Vegetables, Shrimps, and  calamari",
+          },
+          {
+            name: "Tipsyfella special spaghetti",
+            price: "₦3,500",
+          },
+        ],
+      },
+      {
+        heading: "Main dish",
+        listHeading:
+          "Main dishes - (rice dishes, comes with your choice of protein)",
+        items: [
+          {
+            name: "Chinese fried rice",
+            price: "₦3,500",
+          },
+          {
+            name: "Gizdodo rice",
+            price: "₦3,500",
+          },
+          {
+            name: "steam rice",
+            price: "₦3,000",
+          },
+
+          {
+            name: "mixed vegetable fried rice",
+            price: "₦2,500",
+          },
+          {
+            name: "Chicken fried rice",
+            price: "₦3,500",
+          },
+          {
+            name: "Tipsyfella special fried rice",
+            price: "₦3,500",
+          },
+          {
+            name: "Seafood fried rice",
+            price: "₦7,000",
+          },
+          {
+            name: "Oriental chicken",
+            price: "₦4,000",
+            ingredients: "Grilled BornLess Chicken with Gallic & lemon Sauce",
+          },
+          {
+            name: "Chicken curry",
+            price: "₦4,500",
+            ingredients: "Curry Whipping Cream, Onion, Carrot, Green Pepper",
+          },
+          {
+            name: "Peppered turkey",
+            price: "₦4,000",
+            ingredients: "With Onion, fresh tomatoes and Pepper Sauce",
+          },
+          {
+            name: "With Onion, fresh tomatoes and Pepper Sauce",
+            price: "₦4,500",
+            ingredients: "With gallic sauce",
+          },
+          {
+            name: "Prawns",
+            price: "Prawns",
+            ingredients:
+              "In Sweet and Sour Sauce. Plum Tomatoes, Pineapple and Mixed Vegetables",
+          },
+        ],
+      },
+      {
+        heading: "Soups",
+        listHeading: `Soups - ALL THE SOUPS comes WITH ANY OF THE FOLLOWING swallow (EBA, SEMO, POUNDO, WHEAT)
+        with ANY PROTEIN OF YOUR CHOICE (BEEF, CHICKEN, TURKEY, FISH)
+        EXTRA PROTEIN - ₦ 2,000)`,
+        items: [
+          {
+            name: "Gbanga",
+            price: "Gbanga",
+          },
+          {
+            name: "Egusi",
+            price: "Gbanga",
+          },
+          {
+            name: "Seafood okra rice",
+            price: "₦12,000",
+          },
+          {
+            name: "Nsala",
+            price: "₦4,000",
+          },
+          {
+            name: "Oha",
+            price: "₦4,000",
+          },
+          {
+            name: "afang",
+            price: "₦4,000",
+          },
+          {
+            name: "Vegetable",
+            price: "₦3,000",
+          },
+          {
+            name: "Ofe akwu",
+            price: "₦4,000",
+          },
+          {
+            name: "bitter leaf",
+            price: "₦3,500",
+          },
+          {
+            name: "ogbono",
+            price: "₦3,000",
+          },
+        ],
+      },
+      {
+        heading: "Grills",
+        listHeading: "Grills",
+        items: [
+          {
+            name: "",
+            price: "",
+            ingredients: "",
+          },
+        ],
+      },
+      {
+        heading: "Extras",
+        listHeading: "Extras",
+        items: [
+          {
+            name: "Coleslaw",
+            price: "₦500",
+          },
+          {
+            name: "Mixed vegetable salad",
+            price: "₦500",
+          },
+          {
+            name: "Plantain",
+            price: "₦500",
           },
         ],
       },
@@ -658,6 +955,7 @@ interface item {
   name: string;
   price: string;
   ingredients?: string;
+  list?: string[];
 }
 
 interface itemList {
@@ -718,6 +1016,15 @@ const App = () => {
             <span>{item.price}</span>
             {item.ingredients ? (
               <p className="descrip">{item.ingredients}</p>
+            ) : (
+              ""
+            )}
+            {item.list && item.list?.length > 0 ? (
+              <ul className="list">
+                {item.list.map((item2, index) => (
+                  <li key={index}>{item2}</li>
+                ))}
+              </ul>
             ) : (
               ""
             )}
