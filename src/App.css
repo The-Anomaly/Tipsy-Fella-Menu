@@ -83,10 +83,11 @@ button.activeList {
 .item {
   display: flex;
   justify-content: space-between;
-  padding: 1.75rem 0;
+  padding: 1.7rem 0;
   border-top: 1px solid #f2f4f7;
   flex-wrap: wrap;
   text-transform: capitalize;
+  line-height: 1.5;
 }
 .item span:nth-of-type(1) {
   width: 60%;
@@ -113,18 +114,27 @@ button.activeList {
   .appContainer {
     width: 94%;
     padding: 1rem 10px;
+    margin: 1.5rem auto;
+  }
+  .appHeader {
+    padding-top: 10px;
   }
   .appHeader h1 {
-    font-size: 2em;
+    font-size: 1.9em;
+    margin-bottom: 0;
+    margin-top: 12px;
   }
   .ctrlContainer button {
-    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-size: 1.35rem;
   }
   .crtlContainer2 {
     padding: 12px 8px;
+    margin-bottom: 2.5rem;
   }
   .crtlContainer2 button {
     font-size: 12px;
-    padding: 1rem 0;
+    padding: 12px 0;
+    margin: 10px auto;
   }
 }
