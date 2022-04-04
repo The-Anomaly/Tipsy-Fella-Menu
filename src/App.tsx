@@ -41,7 +41,7 @@ const options: options[] = [
             price: "₦2,000",
           },
           {
-            name: "₦2,000",
+            name: "Chicken pepper soup",
             price: "₦2,000",
           },
           {
@@ -80,19 +80,19 @@ const options: options[] = [
           },
           {
             name: "Chicken wings",
-            price: "₦3,000",
+            price: "₦3,500",
             ingredients:
               "Comes with either french fries, potatoe chips or yam chips",
           },
           {
             name: "Grilled chicken",
-            price: "Cripsy chicken",
+            price: "₦3,000",
             ingredients:
               "Comes with either french fries, potatoe chips or yam chips",
           },
           {
             name: "Cripsy chicken",
-            price: "Cripsy chicken",
+            price: "₦4,000",
             ingredients:
               "Comes with either french fries, potatoe chips or yam chips",
           },
@@ -191,7 +191,6 @@ const options: options[] = [
             name: "steam rice",
             price: "₦3,000",
           },
-
           {
             name: "mixed vegetable fried rice",
             price: "₦2,500",
@@ -230,7 +229,7 @@ const options: options[] = [
           },
           {
             name: "Prawns",
-            price: "Prawns",
+            price: "₦4,500",
             ingredients:
               "In Sweet and Sour Sauce. Plum Tomatoes, Pineapple and Mixed Vegetables",
           },
@@ -238,17 +237,17 @@ const options: options[] = [
       },
       {
         heading: "Soups",
-        listHeading: `Soups - ALL THE SOUPS comes WITH ANY OF THE FOLLOWING swallow (EBA, SEMO, POUNDO, WHEAT)
-        with ANY PROTEIN OF YOUR CHOICE (BEEF, CHICKEN, TURKEY, FISH)
-        EXTRA PROTEIN - ₦ 2,000)`,
+        listHeading: `Soups - all the soups come with any of the following swallow 
+        (eba, semo, poundo, wheat) with any protein of your choice 
+        (beef, chicken, turkey, fish). Extra protein - ₦ 2,000)`,
         items: [
           {
             name: "Gbanga",
-            price: "Gbanga",
+            price: "₦3,000",
           },
           {
             name: "Egusi",
-            price: "Gbanga",
+            price: "₦3,000",
           },
           {
             name: "Seafood okra rice",
@@ -351,11 +350,11 @@ const options: options[] = [
             price: "₦15,000",
           },
           {
-            name: "Martini  Brut",
+            name: "Martini Brut",
             price: "₦15,000",
           },
           {
-            name: "Martini  Prosecco",
+            name: "Martini Prosecco",
             price: "₦15,000",
           },
           {
@@ -370,7 +369,6 @@ const options: options[] = [
             name: "Moët Nectar Rose",
             price: "₦65,000",
           },
-
           {
             name: "Moët Nectar Imperial",
             price: "₦65,000",
@@ -437,7 +435,6 @@ const options: options[] = [
             name: "Olmeca Gold",
             price: "₦25,000",
           },
-
           {
             name: "Don Julio 1942",
             price: "₦300,000",
@@ -457,8 +454,8 @@ const options: options[] = [
             price: "₦45,000",
           },
           {
-            name: "Henessy VS",
-            price: "Henessy VS",
+            name: "Hennessy VS",
+            price: "₦50,000",
           },
           {
             name: "Remy Martin",
@@ -473,7 +470,7 @@ const options: options[] = [
             price: "₦60,000",
           },
           {
-            name: "Henessy VSOP",
+            name: "Hennessy VSOP",
             price: "₦65,000",
           },
           {
@@ -485,10 +482,9 @@ const options: options[] = [
             price: "₦210,000",
           },
           {
-            name: "Henessy XO",
+            name: "Hennessy XO",
             price: "₦230,000",
           },
-
           {
             name: "Remy Martin XO",
             price: "₦200,000",
@@ -614,7 +610,7 @@ const options: options[] = [
             price: "₦7,000",
           },
           {
-            name: "Four Cousin",
+            name: "Four Cousins",
             price: "₦8,000",
           },
           {
