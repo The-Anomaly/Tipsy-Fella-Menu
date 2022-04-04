@@ -108,3 +108,23 @@ button.activeList {
   line-height: 1.4;
   padding-left: 1rem;
 }
+
+@media screen and (max-width: 450px) {
+  .appContainer {
+    width: 94%;
+    padding: 1rem 10px;
+  }
+  .appHeader h1 {
+    font-size: 2em;
+  }
+  .ctrlContainer button {
+    font-size: 1.5rem;
+  }
+  .crtlContainer2 {
+    padding: 12px 8px;
+  }
+  .crtlContainer2 button {
+    font-size: 12px;
+    padding: 1rem 0;
+  }
+}

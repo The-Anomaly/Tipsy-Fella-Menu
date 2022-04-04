@@ -919,7 +919,7 @@ const options: options[] = [
           },
           {
             name: "Orange Juice",
-            price: "",
+            price: "₦2,000",
           },
           {
             name: "Waterlemon Juice",
