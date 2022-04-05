@@ -182,6 +182,7 @@ const options: options[] = [
           {
             name: "Chinese fried rice",
             price: "₦3,500",
+            ingredients: "Served in pineapple"
           },
           {
             name: "Gizdodo rice",
@@ -331,7 +332,7 @@ const options: options[] = [
           },
           {
             name: "Blue non",
-            price: "₦15,000",
+            price: "₦20,000",
           },
           {
             name: "Andrae Rose",
@@ -383,11 +384,11 @@ const options: options[] = [
           },
           {
             name: "Laurent Perrier Rose",
-            price: "₦70,000",
+            price: "₦100,000",
           },
           {
             name: "Dom Perignon",
-            price: "₦230,000",
+            price: "₦250,000",
           },
           {
             name: "Ace of Spade",
@@ -401,19 +402,23 @@ const options: options[] = [
         items: [
           {
             name: "Camino real gold",
-            price: "₦15,000",
+            price: "₦20,000",
           },
           {
             name: "Camino real Silver",
-            price: "₦15,000",
+            price: "₦20,000",
           },
           {
             name: "Sierra gold",
             price: "₦15,000",
           },
           {
+            name: "Sierra silver",
+            price: "₦20,000",
+          },
+          {
             name: "Sierra Choc",
-            price: "₦14,000",
+            price: "₦15,000",
           },
           {
             name: "Espolon Silver",
@@ -429,11 +434,11 @@ const options: options[] = [
           },
           {
             name: "Olmeca Silver",
-            price: "₦25,000",
+            price: "₦30,000",
           },
           {
             name: "Olmeca Gold",
-            price: "₦25,000",
+            price: "₦30,000",
           },
           {
             name: "Don Julio 1942",
@@ -458,10 +463,6 @@ const options: options[] = [
             price: "₦50,000",
           },
           {
-            name: "Remy Martin",
-            price: "₦45,000",
-          },
-          {
             name: "Dusse",
             price: "₦45,000",
           },
@@ -475,7 +476,7 @@ const options: options[] = [
           },
           {
             name: "Remy Martin VSOP",
-            price: "₦65,000",
+            price: "₦45,000",
           },
           {
             name: "Martel XO",
@@ -530,8 +531,8 @@ const options: options[] = [
         listHeading: "GIN/RUM",
         items: [
           {
-            name: "Gordon",
-            price: "₦8,000",
+            name: "Gordons",
+            price: "₦10,000",
           },
           {
             name: "Bombay",
@@ -692,6 +693,34 @@ const options: options[] = [
           {
             name: "Cranberry",
             price: "₦3,000",
+          },
+          {
+            name: "Orange Juice",
+            price: "₦2,000",
+          },
+          {
+            name: "Waterlemon Juice",
+            price: "₦2,000",
+          },
+          {
+            name: "Pineapple Juice",
+            price: "₦2,000",
+          },
+          {
+            name: "Apple Juice",
+            price: "₦2,000",
+          },
+          {
+            name: "Tangerine Juice",
+            price: "₦2,000",
+          },
+          {
+            name: "Black Currant",
+            price: "₦2,000",
+          },
+          {
+            name: "Carrot Juice",
+            price: "₦2,000",
           },
         ],
       },
@@ -912,34 +941,6 @@ const options: options[] = [
           {
             name: "Best Green",
             price: "₦3,500",
-          },
-          {
-            name: "Orange Juice",
-            price: "₦2,000",
-          },
-          {
-            name: "Waterlemon Juice",
-            price: "₦2,000",
-          },
-          {
-            name: "Pineapple Juice",
-            price: "₦2,000",
-          },
-          {
-            name: "Apple Juice",
-            price: "₦2,000",
-          },
-          {
-            name: "Tangerine Juice",
-            price: "₦2,000",
-          },
-          {
-            name: "Black Currant",
-            price: "₦2,000",
-          },
-          {
-            name: "Carrot Juice",
-            price: "₦2,000",
           },
         ],
       },
