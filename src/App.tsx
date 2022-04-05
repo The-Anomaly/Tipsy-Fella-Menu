@@ -181,8 +181,8 @@ const options: options[] = [
         items: [
           {
             name: "Chinese fried rice",
-            price: "₦3,500",
-            ingredients: "Served in pineapple"
+            price: "₦4,500",
+            ingredients: "Served in pineapple",
           },
           {
             name: "Gizdodo rice",
@@ -286,12 +286,55 @@ const options: options[] = [
       },
       {
         heading: "Grills",
-        listHeading: "Grills",
+        listHeading: "Grills - Comes with sides; salad, corn and chips",
         items: [
           {
-            name: "",
-            price: "",
-            ingredients: "",
+            name: "Pieces Pork BBQ",
+            price: "₦3,500",
+          },
+          {
+            name: "Pieces Big Pork BBQ",
+            price: "₦4,000",
+          },
+          {
+            name: "Pieces Chicken BBQ",
+            price: "₦3,000",
+          },
+          {
+            name: "Pieces Turkey BBQ",
+            price: "₦3,500",
+          },
+          {
+            name: "Pieces Croaker fish BBQ",
+            price: "₦4,000",
+          },
+          {
+            name: "Whole chicken bBQ",
+            price: "₦8,000",
+          },
+          {
+            name: "Full grilled Tbone steak",
+            price: "₦7,000",
+          },
+          {
+            name: "Piece of grilled beef steak",
+            price: "₦5,000",
+          },
+          {
+            name: "3 pieces of chicken breast BBQ",
+            price: "₦3,000",
+          },
+          {
+            name: "3 pieces of king prawns",
+            price: "₦5,000",
+          },
+          {
+            name: "Open Grilled catfish",
+            price: "₦6,000",
+          },
+          {
+            name: "Grilled Catfish wrapped in foil",
+            price: "₦6,000",
           },
         ],
       },
@@ -410,7 +453,7 @@ const options: options[] = [
           },
           {
             name: "Sierra gold",
-            price: "₦15,000",
+            price: "₦20,000",
           },
           {
             name: "Sierra silver",
@@ -422,11 +465,11 @@ const options: options[] = [
           },
           {
             name: "Espolon Silver",
-            price: "₦25,000",
+            price: "₦30,000",
           },
           {
             name: "Espolon Gold",
-            price: "₦25,000",
+            price: "₦30,000",
           },
           {
             name: "Olmeca Choc",
