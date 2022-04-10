@@ -45,11 +45,11 @@ const options: options[] = [
             price: "₦2,000",
           },
           {
-            name: "Turkey pepper soup",
+            name: "Turkey sauce",
             price: "₦2,500",
           },
           {
-            name: "Asun",
+            name: "Chicken sauce",
             price: "₦2,000",
           },
           {
@@ -164,9 +164,8 @@ const options: options[] = [
             ingredients: "Mixed Meat And Mixed Vegetable",
           },
           {
-            name: "Sea food pasta/Spag",
-            price: "₦7,000",
-            ingredients: "Mixed Vegetables, Shrimps, and  calamari",
+            name: "Tipsy stir fry ",
+            price: "₦3,500",
           },
           {
             name: "Tipsyfella special spaghetti",
@@ -185,19 +184,16 @@ const options: options[] = [
             ingredients: "Served in pineapple",
           },
           {
-            name: "Gizdodo rice",
+            name: "Gizdodo",
             price: "₦3,500",
+            ingredients: "with a side of rice"
           },
           {
-            name: "steam rice",
+            name: "Ofada Rice",
             price: "₦3,000",
           },
           {
-            name: "mixed vegetable fried rice",
-            price: "₦2,500",
-          },
-          {
-            name: "Chicken fried rice",
+            name: "Tipsyfella special jollof rice",
             price: "₦3,500",
           },
           {
@@ -214,25 +210,10 @@ const options: options[] = [
             ingredients: "Grilled BornLess Chicken with Gallic & lemon Sauce",
           },
           {
-            name: "Chicken curry",
-            price: "₦4,500",
-            ingredients: "Curry Whipping Cream, Onion, Carrot, Green Pepper",
-          },
-          {
-            name: "Peppered turkey",
-            price: "₦4,000",
-            ingredients: "With Onion, fresh tomatoes and Pepper Sauce",
-          },
-          {
-            name: "With Onion, fresh tomatoes and Pepper Sauce",
-            price: "₦4,500",
-            ingredients: "With gallic sauce",
-          },
-          {
             name: "Prawns",
             price: "₦4,500",
             ingredients:
-              "In Sweet and Sour Sauce. Plum Tomatoes, Pineapple and Mixed Vegetables",
+              "In Sweet and Sour Sauce. Plum Tomatoes, Pineapple and Mixed Vegetables. Served with a side of rice",
           },
         ],
       },
@@ -288,6 +269,30 @@ const options: options[] = [
         heading: "Grills",
         listHeading: "Grills - Comes with sides; salad, corn and chips",
         items: [
+          {
+            name: "Chicken shawarma (single hot dog)",
+            price: "₦2,000",
+          },
+          {
+            name: "Chicken shawarma (double hot dog)",
+            price: "₦2,500",
+          },
+          {
+            name: "Beef shawarma (single hot dog)",
+            price: "₦1,500",
+          },
+          {
+            name: "Beef shawarma (double hot dog)",
+            price: "₦2,000",
+          },
+          {
+            name: "Mix shawarma (single hot dog)",
+            price: "₦2,500",
+          },
+          {
+            name: "Mix shawarma (double hot dog)",
+            price: "₦3,000",
+          },
           {
             name: "Pieces Pork BBQ",
             price: "₦3,500",
@@ -351,8 +356,12 @@ const options: options[] = [
             price: "₦500",
           },
           {
-            name: "Plantain",
-            price: "₦500",
+            name: "Fried Plantain",
+            price: "₦1,000",
+          },
+          {
+            name: "Boiled Plantain",
+            price: "₦1,000",
           },
         ],
       },
@@ -726,6 +735,14 @@ const options: options[] = [
             price: "₦1,500",
           },
           {
+            name: "Chi Active Can",
+            price: "₦800",
+          },
+          {
+            name: "Chi Exotic Can",
+            price: "₦800",
+          },
+          {
             name: "Hollandia",
             price: "₦1,500",
           },
@@ -849,19 +866,23 @@ const options: options[] = [
           },
           {
             name: "Coke",
-            price: "₦1,000",
+            price: "₦500",
           },
           {
             name: "Sprite",
-            price: "₦1,000",
+            price: "₦500",
           },
           {
             name: "Black Origin",
             price: "₦1,000",
           },
           {
-            name: "Water",
-            price: "₦300",
+            name: "Small bottle water",
+            price: "₦200",
+          },
+          {
+            name: "Big bottle water",
+            price: "₦400",
           },
         ],
       },
@@ -984,6 +1005,26 @@ const options: options[] = [
           {
             name: "Best Green",
             price: "₦3,500",
+          },
+          {
+            name: "Oreo milkshake",
+            price: "₦3,000",
+          },
+          {
+            name: "Vanilla milkshake",
+            price: "₦3,000",
+          },
+          {
+            name: "Strawberry milkshake",
+            price: "₦3,000",
+          },
+          {
+            name: "Parfait",
+            price: "₦2,500",
+          },
+          {
+            name: "Fruit jam",
+            price: "₦2,500",
           },
         ],
       },
